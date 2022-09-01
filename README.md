@@ -70,9 +70,7 @@ Oops, we forgot a step in our first migration! Create a second migration to add
 another column to our `shows` table. Use Rake to generate a
 `add_season_to_shows` migration file. Write a migration to add a column,
 `season`, to the `shows` table. The datatype of this column is string.
-
 ### Methods
-
 You'll be defining the following methods as **class methods** on the `Show` class:
 
 - `.highest_rating`: This method should return the highest value in the ratings
